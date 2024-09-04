@@ -1,0 +1,7 @@
+name: github-aws-oidc
+runtime: go
+description: A pulumi program to deploy the necessary components to setup oidc between AWS and github actions
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go
